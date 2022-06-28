@@ -53,7 +53,7 @@ public class CodeOf324 {
         int i = 0;
         int j=0;
         int k = nums.length - 1;
-        while (j < k) {
+        while (j <= k) {
             if (nums[getIndex(j)] > midValue) {
                 //如果这个数比中间值大 需要把大的值优先放到前面
                 swap(getIndex(j), getIndex(i));
